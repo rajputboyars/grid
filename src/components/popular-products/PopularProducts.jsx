@@ -46,8 +46,8 @@ const PopularProducts = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: el,
-            start: 'top 60%',
-            end: 'top 40%',
+            start: 'top 80%',
+            end: 'top 60%',
             toggleActions: 'play none none reverse',
           },
         }
@@ -67,7 +67,7 @@ const PopularProducts = () => {
             className={`flex items-center justify-between ${
               index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
             } bg-gray-100 rounded-lg shadow-lg p-5`}
-            style={{ height: '50vh' }} // Set height of each card to 20vh
+            style={{ height: '30vh' }} // Set height of each card to 20vh
           >
             {/* Product Image */}
             <div className="w-1/4 h-full overflow-hidden">
