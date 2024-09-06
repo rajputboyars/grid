@@ -7,6 +7,7 @@ import OurApp from "./components/our-app/OurApp"
 import Footer from "./components/Footer/Footer"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
+import Cart from "./components/cart/Cart"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/category" element={<Category />} />
         <Route path="/popular-products" element={<PopularProducts />} />
         <Route path="/our-app" element={<OurApp />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
